@@ -496,9 +496,9 @@ int main (int argc, char* argv[]) {
     fclose ( fdArchOut );
 
     if ( !ret ) {
-       sprintf (cmd, "as -o %s %s", archOutObj, archOutAsm);
+       sprintf (cmd, "as --32 -o %s %s", archOutObj, archOutAsm);
        system (cmd);
-       sprintf (cmd, "ld -o %s %s lib/itoa.o", archOut, archOutObj);
+       sprintf (cmd, "ld -m elf_i386 -o %s %s lib/itoa.o", archOut, archOutObj);
        system (cmd);
     }
 
