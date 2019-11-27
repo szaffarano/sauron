@@ -1,0 +1,16 @@
+main {
+   b = 1 + 4;
+   a = 5;
+   if ( a < 6 ) {
+#     a = 6;    #
+      if ( b < 6 )      
+        a = 1;
+#      else 
+        a = 2;    #
+   }
+   else {
+      a = 4;
+   }
+   print a;
+   print b;
+} endmain

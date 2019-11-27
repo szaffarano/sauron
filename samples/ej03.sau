@@ -1,0 +1,9 @@
+main {
+	switch (var1) {
+		case 0xFF: a = 5;
+			   break;
+		case 0b0101: a = 6;
+			     break;
+	};
+}
+endmain

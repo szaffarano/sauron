@@ -1,0 +1,10 @@
+main {
+    if ( a >= 5 ) {
+       for ( b = 1; b == 10 ; b = b + 1) {
+           c = b + 0b01111;
+       }
+    } else {
+      a = 1;
+    }
+}
+endmain

@@ -1,0 +1,58 @@
+main {
+  a = 1;
+  b = 2;
+  c = 3;
+  d = 4;
+  e = 5;
+  f = 6;
+  g = 7;
+  h = 8;
+  i = 9;
+  j = 10;
+  result =  a + b + c * d + e * (f + g + h + i);
+  print result;
+  result = result + 2;
+  i = i + 3;
+  j = j + 2;
+  switch (result) {
+     case 165:
+        print 1;
+        break;
+     case 166:
+        print 2;
+        break;
+     case 167: {
+        print 3;
+        switch (i) {
+           case 9:
+              print 8;
+              break;
+           case 10:
+              print 9;
+              break;
+           case 11:
+              print 10;
+              break;
+           case 12: {
+              print 10;
+              switch (j) {
+                 case 10:
+                    print 12;
+                    break;
+                 case 11:
+                    print 13;
+                    break;
+                 case 12:
+                    print 144;
+                    break;
+              }
+           }
+              break;
+        }
+     }
+        break;
+     case 168:
+        print 4;
+        break;
+  }
+} endmain

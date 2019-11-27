@@ -1,0 +1,8 @@
+main {
+   for ( i = 0; i < 10; i = i + 1 ) {
+      b = 9;
+      for ( j = 0; j > 11; j = j + 1 ) {
+         variable2 = j;
+      }
+   }
+} endmain

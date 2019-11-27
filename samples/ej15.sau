@@ -1,0 +1,14 @@
+main {
+   if ( b > 0 ) {
+      a = 3 + 0o7;
+      e = 3 - y;
+      if ( f > 0 ) {
+         s = 14 - i;
+      } else {
+         y = 3 - y;
+      }
+   } else {
+      f = 34 + 8;
+      z = 9 - 8;
+   }
+} endmain

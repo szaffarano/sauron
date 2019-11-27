@@ -1,0 +1,12 @@
+main {
+   var2 = 5;
+   b = -(-12 + 1 + var2);
+   if ( ! var2 < 4 ) {
+      print var2;
+   }
+   print b;
+   var2 = var2 * var2;
+   var3 = 3 * 1000;
+   print var2;
+   print var3;
+} endmain

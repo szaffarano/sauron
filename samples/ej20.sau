@@ -1,0 +1,22 @@
+main {
+   switch (a) {
+      case 1:
+         b = a;
+         break;
+      case 2:
+         b = c;
+         break;
+      case 3: {
+         b = d;
+         switch ( f ) {
+            case 4:
+               r = 9;
+               break;
+            case 5:
+               t = 14;
+               break;
+         }
+      }
+         break;
+   }
+} endmain

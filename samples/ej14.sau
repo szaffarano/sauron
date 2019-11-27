@@ -1,0 +1,18 @@
+main {
+   if ( a + 5 * (8 - 2) / b > 3 )
+      a = 2; 
+   else {
+      d = c + (3/2) - 3;
+   }
+   switch (a) {
+      case 1:
+         b = a;
+         break;
+      case 1:
+         b = a;
+         break;
+      case 1:
+         b = a;
+         break;
+   }
+} endmain

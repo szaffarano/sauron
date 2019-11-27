@@ -1,0 +1,8 @@
+main {
+   b = 30;
+   a = 12;
+   d = (b - 1) * ( 4 + ( a - 4 / 2) - 8);
+   f = 28;
+   print f;
+   print d;
+} endmain

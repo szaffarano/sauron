@@ -1,0 +1,17 @@
+main {
+   if ( b > 0 ) {
+      s = 3 - y;
+   } else {
+      f = 34 + 8;
+      if ( b > 3 ) {
+         v = 9;
+      } else {
+         t = 9 + 8;
+         if ( r > 9 ) {
+            qq = u - 9;
+         } else {
+            var4 = 5 - 9;
+         }
+      }
+   }
+} endmain
